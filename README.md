@@ -10,7 +10,7 @@ A lender has to decide whether to approve a loan. Approving a borrower who later
 - **Target:** `SeriousDlqin2yrs` (1 = 90+ days past due within 2 years)
 - **Challenge:** only **6.7%** of borrowers default, so accuracy is misleading. A model that predicts "no default" for everyone scores about 93% accuracy and catches no defaulters. This project is judged on recall, precision, F1, ROC-AUC and PR-AUC instead.
 
-The dataset is not included in this repository. Download `cs-training.csv` from the [Give Me Some Credit Kaggle competition](https://www.kaggle.com/c/GiveMeSomeCredit) to rerun the notebook.
+**Dataset:** [Give Me Some Credit (Kaggle)](https://www.kaggle.com/c/GiveMeSomeCredit), file `cs-training.csv` (not included in this repo).
 
 ## Approach
 
